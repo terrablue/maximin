@@ -63,7 +63,6 @@ const rules = Object.fromEntries([
   "no-trailing-spaces",
   "no-whitespace-before-property",
   ["object-curly-spacing", error("never")],
-  "sort-keys",
   "spaced-comment",
   "space-infix-ops",
   ["quotes", error("double")],
