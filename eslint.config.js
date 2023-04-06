@@ -150,21 +150,21 @@ const rules = Object.fromEntries([
   /* }}} */
   /* simplicity: reduce complexity {{{ */
   "array-callback-return",
-  "no-await-in-loop",
-  "no-promise-executor-return",
-  "no-unmodified-loop-condition",
-  "require-atomic-updates",
   "consistent-return",
-  "no-labels",
-  "no-else-return",
-  "no-continue",
   ["complexity", error({max: 2})],
+  "max-classes-per-file",
   ["max-depth", error({max: 2})],
   ["max-lines", error({max: 200, skipBlankLines: true, skipComments: true})],
   ["max-nested-callbacks", error({max: 3})],
   ["max-params", error({max: 3})],
   ["max-statements", error({max: 10})],
-  "max-classes-per-file",
+  "no-await-in-loop",
+  "no-continue",
+  "no-else-return",
+  "no-labels",
+  "no-promise-executor-return",
+  "no-unmodified-loop-condition",
+  "require-atomic-updates",
   /* }}} */
 ].map(rule => typeof rule === "string" ? [rule, ["error"]] : rule));
 
@@ -182,7 +182,6 @@ const languageOptions = {
       ],
     },
     requireConfigFile: false,
-    sourceType: "module",
   },
   sourceType: "module",
 };
