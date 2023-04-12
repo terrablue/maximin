@@ -12,11 +12,6 @@ incoherent or obscure features.
 Install with `npm i maximin`, put `export {default} from "maximin";` in
 `eslint.config.js` in root.
 
-### Extend
-
-Don't. Instead open an issue and the discuss the merits of your change for the
-benefit of everyone.
-
 ## Categories
 
 Rules are grouped into categories. Although some rules may potentially fit more
