@@ -8,7 +8,7 @@ const indentation = 2;
 
 const rules = Object.fromEntries([
   /* clarity: properly document and express intent {{{ */
-  ["func-names", error("always")],
+  "func-names",
   "no-eq-null",
   "no-floating-decimal",
   "no-implicit-coercion",
@@ -110,6 +110,7 @@ const rules = Object.fromEntries([
     "SwitchStatement",
   ])],
   ["no-unused-expressions", error({allowShortCircuit: true})],
+  ["no-unused-vars", error({argsIgnorePattern: "^_$"})],
   "object-shorthand",
   /* }}} */
   /* modernity: no non-standard, deprecated or obscure features {{{ */
