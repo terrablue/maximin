@@ -23,7 +23,7 @@ const rules = Object.fromEntries([
   "no-negated-condition",
   "no-return-assign",
   "no-self-compare",
-  "no-shadow",
+  ["no-shadow", error({allow: ["_"]})],
   "no-throw-literal",
   ["no-warning-comments", error({location: "anywhere"})],
   "prefer-named-capture-group",
