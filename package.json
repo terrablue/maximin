@@ -5,9 +5,9 @@
   "description": "Maximin ESLint config",
   "license": "MIT",
   "peerDependencies": {
-    "@babel/eslint-parser": "^7.22.10",
+    "@babel/eslint-parser": "^7.22.11",
     "@babel/plugin-syntax-import-assertions": "^7.22.5",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "globals": "^13.21.0"
   },
   "type": "module",
