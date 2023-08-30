@@ -15,7 +15,7 @@ const rules = Object.fromEntries([
   "no-inline-comments",
   ["no-magic-numbers", error({
     enforceConst: true,
-    ignore: [0, 1],
+    ignore: [-1, 0, 1],
     ignoreArrayIndexes: true,
     ignoreDefaultValues: true,
   })],
