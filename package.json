@@ -5,11 +5,11 @@
   "description": "Maximin ESLint config",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.22.20",
+    "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.22.15",
     "@babel/plugin-syntax-import-assertions": "^7.22.5",
-    "eslint": "^8.50.0",
-    "globals": "^13.22.0"
+    "eslint": "^8.51.0",
+    "globals": "^13.23.0"
   },
   "type": "module",
   "main": "./eslint.config.js"
