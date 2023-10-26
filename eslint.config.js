@@ -159,6 +159,7 @@ const rules = Object.fromEntries([
   ["max-nested-callbacks", error({ max: 3 })],
   ["max-params", error({ max: 3 })],
   ["max-statements", error({ max: 10 })],
+  ["multiline-comment-style", error("separate-lines")],
   "no-await-in-loop",
   "no-continue",
   "no-else-return",
