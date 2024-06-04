@@ -1,6 +1,6 @@
 {
   "name": "maximin",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "repository": "https://github.com/terrablue/maximin",
   "description": "Maximin ESLint config",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "@babel/core": "^7.24.6",
     "@babel/eslint-parser": "^7.24.6",
     "@babel/plugin-syntax-import-assertions": "^7.24.6",
-    "eslint": "^9.4.0",
+    "eslint": "^8.52.0",
     "globals": "^15.3.0"
   },
   "type": "module",
