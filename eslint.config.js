@@ -1,4 +1,3 @@
-import babelParser from "@babel/eslint-parser";
 import js from "@eslint/js";
 import globals from "globals";
 
@@ -176,13 +175,7 @@ const languageOptions = {
     ...globals.node,
     ...globals.browser,
   },
-  parser: babelParser,
   parserOptions: {
-    babelOptions: {
-      plugins: [
-        "@babel/plugin-syntax-import-assertions",
-      ],
-    },
     requireConfigFile: false,
   },
   sourceType: "module",
