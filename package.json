@@ -1,7 +1,10 @@
 {
   "name": "maximin",
   "version": "0.4.0",
-  "repository": "https://github.com/terrablue/maximin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrablue/maximin.git"
+  },
   "description": "Maximin eslint config",
   "license": "MIT",
   "dependencies": {
